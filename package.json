@@ -1,0 +1,27 @@
+{
+  "name": "cybershujaa-qa-autimation-with-mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burnermkali/cybershujaa-qa-autimation-with-mcp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burnermkali/cybershujaa-qa-autimation-with-mcp/issues"
+  },
+  "homepage": "https://github.com/burnermkali/cybershujaa-qa-autimation-with-mcp#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  }
+}
