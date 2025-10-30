@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "servers": [
+    {
+      "name": "claude-api",
+      "type": "http",
+      "url": "https://api.claude.ai/mcp",
+      "apiKey": "${CLAUDE_API_KEY}",
+      "model": "claude-3-opus",
+      "temperature": 0.7,
+      "maxTokens": 4000,
+      "features": {
+        "codeGeneration": true,
+        "documentation": true,
+        "codeReview": true,
+        "qaAutomation": true
+      }
+    }
+  ],
+  "settings": {
+    "autoFormat": true,
+    "includeComments": true,
+    "language": "typescript",
+    "targetEnvironment": "node"
+  },
+  "rules": {
+    "include": [".claude/rules/*.mdc"]
+  }
+}

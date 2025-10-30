@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "servers": [
+    {
+      "name": "vscode-mcp",
+      "type": "http",
+      "url": "https://api.vscode-mcp.com",
+      "apiKey": "${VSCODE_MCP_API_KEY}",
+      "timeout": 30
+    }
+  ]
+}
